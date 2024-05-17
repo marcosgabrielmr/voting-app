@@ -11,7 +11,7 @@ services:
       redis:
         condition: service_healthy 
     ports:
-      - "3000:80"
+      - "6000:80"
     networks:
       - front-tier
       - back-tier
